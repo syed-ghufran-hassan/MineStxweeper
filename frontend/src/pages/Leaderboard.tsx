@@ -16,8 +16,8 @@ export function Leaderboard() {
     <div className="min-h-screen bg-gray-900 pt-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-white text-center mb-8 flex items-center justify-center gap-3">
-          <Trophy size={40} className="text-yellow-400" />
-          Global Leaderboard
+           <Trophy size={40} className="text-yellow-400" />
+           <span className="font-army">Global Leaderboard</span>
         </h1>
 
         {/* Difficulty Tabs */}
