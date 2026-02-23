@@ -78,7 +78,7 @@ function DifficultyTab({ label, active, onClick }: { label: string; active: bool
   return (
     <button
       onClick={onClick}
-      className={`px-6 py-3 rounded-lg font-semibold transition ${
+      className={`px-6 py-3 rounded-lg font-semibold font-army transition ${
         active
           ? 'bg-primary-600 text-white'
           : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
